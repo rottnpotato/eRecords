@@ -1,0 +1,112 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Horizon"
+    >
+
+    <ScrollView android:id="@+id/home_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <TextView android:id="@+id/overview_text"
+                android:textSize="25sp"
+                android:textColor="@color/overview_text_color"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="265.5dp"
+                android:layout_height="47.5dp"
+                android:text="@string/overview_text_string"
+                />
+
+            <TextView
+                android:id="@+id/class_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="515dp"
+                android:text="@string/class_counter_string"
+                android:textColor="@color/overview_text_color"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/subject_count"
+                android:layout_width="183dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="203dp"
+                android:layout_marginTop="363dp"
+                android:text="@string/subject_count_string"
+                android:textColor="@color/overview_text_color"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/enrolled_count"
+                android:layout_width="207sp"
+                android:layout_height="55sp"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="193sp"
+                android:text="@string/enrolled_count_string"
+                android:textColor="@color/overview_text_color"
+                android:textSize="25sp" />
+
+            <TextView android:id="@+id/user_text"
+                android:textSize="25sp"
+                android:textColor="@color/overview_text_color"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="265.5dp"
+                android:layout_height="47.5dp"
+                android:text="@string/user_text_string"
+                />
+
+            <ImageView android:id="@+id/__img_image_stud"
+                android:src="@drawable/__img_image_stud"
+                android:contentDescription="__img_image_stud"
+                android:layout_marginStart="198dp"
+                android:layout_marginTop="180dp"
+                android:layout_width="188dp"
+                android:layout_height="79dp" />
+
+            <ImageView android:id="@+id/__img_user_icon"
+                android:src="@drawable/__img_user_icon"
+                android:contentDescription="__img_user_icon"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_width="42dp"
+                android:layout_height="36.06dp" />
+
+            <ImageView android:id="@+id/__img_research_icon"
+                android:src="@drawable/__img_research_icon"
+                android:contentDescription="__img_research_icon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="339dp"
+                android:layout_width="181dp"
+                android:layout_height="96dp" />
+
+            <ImageView android:id="@+id/__img___line_icon"
+                android:src="@drawable/__img___line_icon"
+                android:contentDescription="__img___line_icon"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="84dp"
+                android:layout_width="348dp"
+                android:layout_height="81.05dp" />
+
+            <ImageView android:id="@+id/__img_class_icon"
+                android:src="@drawable/__img_class_icon"
+                android:contentDescription="__img_class_icon"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="489dp"
+                android:layout_width="163dp"
+                android:layout_height="111dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
